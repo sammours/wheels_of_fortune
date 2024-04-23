@@ -1,0 +1,92 @@
+body {
+    background-color: #2D2D2D;
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    content: "";
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#spinner-container {
+    flex: 1;
+    justify-self: center;
+    text-align: center;
+}
+
+#settings-container {
+    flex: 1;
+}
+
+
+.input {
+    line-height: 50px;
+    height: 40px;
+    margin: 5px 5px;
+    background: #fafafa;
+    border: gray;
+    outline: none;
+    -webkit-box-shadow: inset 0px 1px 3px 0px rgb(0 0 0 / 8%);
+    -moz-box-shadow: inset 0px 1px 3px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: inset 0px 1px 3px 0px rgb(0 0 0 / 8%);
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    padding: 0 20px;
+    font-size: 16px;
+    color: #666;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+}
+
+.choice-input {
+    margin: 20px 5% 5px 10%;
+    width: 55%;
+}
+
+.colour-input {
+    margin: 20px 5% 5px 0;
+    width: 20%;
+}
+
+.btn {
+    display: inline-block;
+    line-height: 20px;
+    height: 40px;
+    margin: 5px 5px;
+    padding: 0 50px;
+    -webkit-transition: all 0.4s ease;
+    -o-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+    transition: all 0.4s ease;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff;
+    background: #4272d7;
+    border: #3868cd;
+    font-family: "Poppins", "Arial", "Helvetica Neue", sans-serif;
+    border-radius: 5px;
+    margin: 20px 10% 5px 10%;
+}
+
+
+.btn-spinner {
+    border-radius: 50px;
+    width: 200px;
+}
+
+.btn:hover {
+    background: #3868cd;
+    border: #4272d7;
+}
+
+#selectedValue {
+    font-size: 20pt;
+}

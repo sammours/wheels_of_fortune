@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="spinner-container">
+                <div>
+                    
+                </div>
+                <canvas id="canvas"></canvas>
+                <div id="selectedValue"></div>
+            </div>
+            <div id="settings-container">
+                <button onclick="spin()" class="btn btn-spinner">Spin</button>
+                <button class="btn" onclick="createNewChoice()">+ Add choice</button>
+            </div>
+        </div>
+        <script src="script.js"></script>
+        <script>
+            // window.onresize = function() { prepareGird(); }
+            window.onload = function() { init(); }
+        </script>
+    </body=>
+</html>
